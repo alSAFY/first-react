@@ -1,0 +1,22 @@
+#contact h2,
+#contact .head .icon i{
+    color: #2C3E50 !important;
+}
+#contact .head .icon::before,
+#contact .head .icon::after{
+    background-color: #2C3E50;
+}
+#contact .form .form-control{
+    border-width: 0px 0px 1px 0px  !important;
+    border-radius: 0;
+}
+#contact .form .form-control:focus{
+    box-shadow: none !important;
+    border-color: #ccc;
+}
+#contact .form .form-control:focus+label{
+    color: #5CBD9D;
+}
+#contact .form button{
+    background-color: #5CBD9D;
+}

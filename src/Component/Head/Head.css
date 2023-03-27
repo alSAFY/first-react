@@ -1,0 +1,36 @@
+.head h2{
+    font-size: 3rem;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.head .icon{
+    width: fit-content;
+    margin: auto;
+}
+
+.head .icon::before{
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 100px;
+    right: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 1rem;
+    background-color: #fff;
+}
+.head .icon::after{
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 100px;
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 1rem;
+    background-color: #fff;
+}
+.head .icon i{
+    color: #fff;
+}

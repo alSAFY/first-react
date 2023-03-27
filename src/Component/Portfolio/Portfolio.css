@@ -1,0 +1,36 @@
+#portfolio h2{
+    font-size: 3rem;
+    color: #2C3E50;
+    letter-spacing: 3px;
+}
+
+#portfolio .head .icon{
+    width: fit-content;
+    margin: auto;
+}
+
+#portfolio .head .icon::before{
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 100px;
+    right: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 1rem;
+    background-color: #2C3E50;
+}
+#portfolio .head .icon::after{
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 100px;
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 1rem;
+    background-color: #2C3E50;
+}
+#portfolio .head .icon i{
+    color: #2C3E50;
+}

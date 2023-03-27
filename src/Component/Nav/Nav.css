@@ -1,0 +1,15 @@
+.nav-bar{
+    background-color: #2C3E50;
+    z-index: 9;
+}
+.nav-link, .navbar-brand{
+    letter-spacing: 2px;
+}
+.nav-link:hover{
+    color: #5CBD9D !important;
+    letter-spacing: 2px;
+}
+.active{
+    background-color: #5CBD9D !important ;
+    color: #fff;
+}

@@ -1,0 +1,11 @@
+.layer{
+    inset: 0;
+    display: grid;
+    place-items: center;
+    background-color: rgba(92, 189, 157, .9);
+    opacity: 0;
+    transition: .3s all;
+}
+.image:hover .layer{
+    opacity: 1;
+}

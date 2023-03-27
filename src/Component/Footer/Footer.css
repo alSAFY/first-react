@@ -1,0 +1,19 @@
+#footer{
+    background-color: #2C3E50;
+}
+#footer .icon{
+    margin: 0 1rem;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    transition: .5s all;
+}
+#footer .icon:hover{
+    background-color: #fff;
+    color: #2C3E50;
+}
